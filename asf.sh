@@ -11,6 +11,7 @@ yum install -y dotnet-sdk-2.1.105
 wget https://github.com/JustArchi/ArchiSteamFarm/releases/download/${ASV_ver}/ASF-linux-x64.zip
 #下载ASF
 unzip ASF-linux-x64.zip -d ASF/
+rm -f ASF-linux-x64.zip
 cd ASF
 chmod +x ArchiSteamFarm
 cd config
