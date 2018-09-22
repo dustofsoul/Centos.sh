@@ -14,6 +14,5 @@ unzip ASF-linux-x64.zip -d ASF/
 rm -f ASF-linux-x64.zip
 cd ASF
 chmod +x ArchiSteamFarm
-cd config
 echo -e "安装完成，请自行上传配置文件"
 exit 0
