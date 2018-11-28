@@ -1,7 +1,6 @@
 #!/bin/bash
 echo -e "此脚本将安装fail2ban"
 yum install -y fail2ban
-sysctel 
 #创建配置文件
 cat>/etc/fail2ban/jail.local<<EOF
 [DEFAULT]
