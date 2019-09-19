@@ -1,0 +1,10 @@
+curl https://getcaddy.com | bash -s personal        #caddy
+wget -qO- https://getcaddy.com | bash -s personal   #caddy
+curl https://rclone.org/install.sh | sudo bash      #rclone
+wget -qO- https://dot.net/v1/dotnet-install.sh | sudo bash -Runtime dotnet  #dotnet SDK
+yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm #remi
+DD centos7
+wget -qO ~/Network-Reinstall-System-Modify.sh 'https://tech.cxthhhhh.com/tech-tools/Network-Reinstall-System-Modify/Network-Reinstall-System-Modify.sh' && chmod a+x ~/Network-Reinstall-System-Modify.sh && bash ~/Network-Reinstall-System-Modify.sh -CentOS_7
+
+centos7 bbr
+yum install wget -y &>> /dev/null && mkdir ~/cloudapps && cd ~/cloudapps && wget -q http://mirror.cloudcone.net/centos/7/apps/install-bbr.sh -O ~/cloudapps/install-bbr.sh && bash ~/cloudapps/install-bbr.sh && rm -rf ~/cloudapps && cd
